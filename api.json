@@ -1,0 +1,40 @@
+{
+  "baichuan-13b-chat": {
+    "openai_api_key": "xxx",
+    "openai_api_base": "xxx",
+    "model_name": "baichuan-13b-chat"
+  },
+  "gpt-3.5-turbo": {
+    "openai_api_key": "xxx",
+    "openai_api_base": "default",
+    "model_name": "gpt-3.5-turbo"
+  },
+  "text-embedding-ada-002": {
+    "openai_api_key": "xxx",
+    "openai_api_base": "default",
+    "model_name": "text-embedding-ada-002"
+  },
+  "m3e_base": {
+    "openai_api_key": "xxx",
+    "openai_api_base": "xxx",
+    "model_name": "m3e_base"
+  },
+  "chroma": {
+    "host": "127.0.0.1",
+    "port": 7000,
+    "default_table_name": "test"
+  },
+  "pgvector": {
+    "host": "172.25.235.215",
+    "port": 5433,
+    "dbname": "postgres",
+    "user": "postgres",
+    "password": "test",
+    "default_table_name": "test"
+  },
+  "milvus": {
+    "host": "127.0.0.1",
+    "port": 19530,
+    "default_table_name": "test"
+  }
+}
