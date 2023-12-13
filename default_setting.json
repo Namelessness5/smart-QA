@@ -1,0 +1,10 @@
+{
+  "model_name": "baichuan-13b-chat",
+  "embedding": "m3e_base",
+  "splitter": {
+    "name": "langchain_splitter",
+    "chunk_size": 200,
+    "chunk_overlap": 0
+  },
+  "vector_database": "chroma"
+}
